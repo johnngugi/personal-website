@@ -18,6 +18,12 @@
 .text_b {
     color: #2196F3;
 }
+.header {
+    text-align: center;
+}
+body {
+    font-size: 1.2em;
+}
 
 /*
   ============================================
@@ -135,8 +141,9 @@
   ============================================
 */
 
-#about {
+.lead {
     font-size: 2em;
+    margin: 15% 0;
 }
 
 /*
@@ -171,6 +178,10 @@
   ============================================
 */
 
+.skills {
+    margin: 15% 0;
+    vertical-align: center;
+}
 .skills p {
     font-size: 2em;
     font-style: italic;
@@ -178,15 +189,33 @@
 
 /*
   ============================================
+  Contact
+  ============================================
+*/
+
+.contact {
+    font-size: 1.5em;
+}
+/*
+  ============================================
   Footer
   ============================================
 */
 
 footer {
+    position: relative;
     background: #2196F3 !important;
+    bottom: 0;
+}
+
+footer ul {
+    margin-left: -7%;
 }
 
 footer ul li {
     display: inline-block;
     margin-left: 5%;
+}
+.footer-copyright {
+    background: #2196F3 !important;
 }
