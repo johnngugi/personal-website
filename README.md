@@ -1,2 +1,3 @@
 # personal-website
-My Personal Website
+
+[My Personal Website](http://john-ngugi.netlify.com/)
