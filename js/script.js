@@ -81,7 +81,7 @@ $(document).ready(function() {
             setTimeout(function(){ showWord(nextWord, typeLettersDelay) }, typeAnimationDelay);
 
         } else if($word.parents('.cd-headline').hasClass('letters')) {
-            var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
+            var bool = ($word.children('i').length >= nextWord.children('i').length);
             hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
             showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
 
